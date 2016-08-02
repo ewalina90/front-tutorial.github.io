@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+}
+@font-face {
+    font-family: Ptsans;
+    src: url(Ptsans.ttf);
+}
+@font-face {
+    font-family: Ptserif;
+    src: url(Pts.ttf);
+}
+nav {
+	width: 1200px;
+	margin: auto;
+}
+nav ul {
+	margin:0;
+}
+nav ul li{
+	color: #323232;
+	font: 13px Ptsans;
+	letter-spacing: 0.17em;
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	float: right;
+	padding: 0 15px;
+	margin: 25px 0 0 0;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #323232;
+}
+a:hover {
+	color: #666666;
+}
+.logo {
+	float: left !important;
+}
+.banner {
+	margin: 25px 0 0 0;
+	width: 100%;
+	height: 850px;
+	background: url(beach.png);
+	background-size: cover;
+}
+.banner h1{
+	margin:0;
+	padding-top: 280px;
+	color: #fff;
+	text-align: center;
+	font: 62px Ptsans;
+}
+.banner h2 {
+	margin: 0;
+	padding-top: 23px;
+	text-align: center;
+	color: #fff;
+	font: 35px Ptserif;
+}
+.banner form {
+	text-align: center;
+	padding-top: 35px;
+}
+.banner form input[type="button"] {
+	background-color: #fff;
+	border: none;
+	text-decoration: none;
+	color: #323232;
+	font: 13px Ptsans;
+	letter-spacing: 0.17em;
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 15px 25px;
+}
+.banner form input[type="button"]:hover {
+	background-color: #f8f7f6;
+}
+.banner_story {
+	background-color: #f8f7f6;
+	width: 1000px;
+	height: 100%;
+	margin: 50px auto;
+}
+.banner_story h2{
+	margin: 0;
+	padding: 50px 0 0 50px;
+	font: 32px Ptsans;
+	font-weight: bold;
+	color: #323232;
+}
+.banner_story h3{
+	margin: 0;
+	padding: 20px 0 0 50px;
+	font: 17px Ptserif;
+	line-height: 26px;
+	opacity: 0.7;
+}
+.banner_story h3.date_tags {
+	margin: 0;
+	text-align: right;
+	padding: 20px 120px 25px 0;
+	font-style: italic;
+}
+.banner_story h3.date_tags img{
+	color: #444444;
+}
+.banner_little {
+	width: 1000px;
+	height: 100%;
+	margin: 50px auto;
+}
+.banner_little img {
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.photo_title {
+	background-color: #f8f7f6;
+	padding: 20px 0 20 50px;
+	width: 1000px;
+	margin: 0;
+}
+.photo_title h2{
+	margin: 0;
+	display: inline-block;
+	font: 32px Ptsans;
+	font-weight: bold;
+	color: #323232;
+	padding: 30px 0 30px 50px;
+}
+.photo_title h3{
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 43px 120px 0 0;
+	opacity: 0.7;
+	font: 17px Ptserif;
+	font-style: italic;
+}
+.photo_title img {
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+}
